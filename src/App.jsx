@@ -11,10 +11,10 @@ function App() {
     <div className="App h-full">
       <Header />
       <Routes>
-        <Route path="/" element={<Home key="Home" />} />
         <Route path="/projects" element={<Projects key="Projects" />} />
         <Route path="/about" element={<About key="About" />} />
         <Route path="/contact" element={<Contact key="Contact" />} />
+        <Route exact path="/" element={<Home key="Home" />} />
       </Routes>
     </div>
   );
