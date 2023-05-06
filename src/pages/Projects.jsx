@@ -31,7 +31,7 @@ export default function Projects() {
 
   const [projects, setProjects] = useState([]);
 
-  useEffect(() => setProjects(arr), [arr]);
+  useEffect(() => setProjects(arr), []);
 
   const cards = projects.map((card, i) => {
     return <ProjectsCard key={`Card${i}`} card={card} />;
