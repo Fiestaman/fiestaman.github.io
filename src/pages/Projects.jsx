@@ -4,6 +4,14 @@ import ProjectsCard from "../components/ProjectsCard";
 export default function Projects() {
   const arr = [
     {
+      name: "CRA Chat App",
+      description:
+          "Interactive, live messaging app built using React.js, Firebase, and socket.io.",
+      image: "./ChatApp.png",
+      code: "https://github.com/Fiestaman/ChatApp",
+      demo: "https://crachatapp.onrender.com/",
+    },
+    {
       name: "Pokedex Compendium",
       description:
         "Single page app highlighting information regarding Pokemons, berries, and items in the game series built using React.js.",
