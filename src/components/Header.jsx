@@ -21,6 +21,11 @@ export default function Header() {
             Projects
           </Link>
         </li>
+          <li className="mx-4 my-0 overflow-hidden h-0 m-0 p-0 border-none transition-[height] duration-[400ms] ease-[cubic-bezier(0.23, 1, 0.32, 1)] peer-checked:border peer-checked:border-[#333] peer-checked:h-10 peer-checked:p-2 peer-checked:transition-[height] peer-checked:duration-[400ms] peer-checked:ease-[cubic-bezier(0.23, 1, 0.32, 1)] flex justify-center py-2 w-full text-white bg-[#222] border-b border-[#444]">
+              <Link className="navLink" to="/resume">
+                  Resume
+              </Link>
+          </li>
         <li className="mx-4 my-0 overflow-hidden h-0 m-0 p-0 border-none transition-[height] duration-[400ms] ease-[cubic-bezier(0.23, 1, 0.32, 1)] peer-checked:border peer-checked:border-[#333] peer-checked:h-10 peer-checked:p-2 peer-checked:transition-[height] peer-checked:duration-[400ms] peer-checked:ease-[cubic-bezier(0.23, 1, 0.32, 1)] flex justify-center py-2 w-full text-white bg-[#222] border-b border-[#444]">
           <Link className="navLink" to="/about">
             About
