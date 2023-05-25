@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Header from "./components/Header";
+import Resume from "./pages/Resume.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/projects" element={<Projects key="Projects" />} />
         <Route path="/about" element={<About key="About" />} />
         <Route path="/contact" element={<Contact key="Contact" />} />
+        <Route path="/resume" element={<Resume key="Resume" />} />
         <Route exact path="/" element={<Home key="Home" />} />
       </Routes>
     </div>
