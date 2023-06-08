@@ -6,10 +6,10 @@ export default function Projects() {
     {
       name: "CRA Chat App",
       description:
-          "Interactive, live messaging app built using React.js, Firebase, and socket.io.",
+        "Interactive, live messaging app built using React.js, Firebase, and socket.io.",
       image: "./ChatApp.png",
       code: "https://github.com/Fiestaman/ChatApp",
-      demo: "https://crachatapp.onrender.com/",
+      demo: "https://craca.onrender.com/",
     },
     {
       name: "Pokedex Compendium",
@@ -47,7 +47,9 @@ export default function Projects() {
 
   return (
     <div className="Projects">
-      Here are some of the projects that I&apos;ve worked on:
+      <h1 className="text-5xl mb-4">
+        Here are some of the projects that I&apos;ve worked on:
+      </h1>
       {cards}
     </div>
   );
