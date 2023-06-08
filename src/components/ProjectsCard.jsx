@@ -3,7 +3,14 @@ export default function PortfolioCard({
 }) {
   return (
     <div className="card border border-slate-400 flex">
-      <img className="cardImage w-48 md:w-96" src={image} />
+      <a href={demo} target="_blank" rel="noreferrer">
+        {" "}
+        <img
+          className="cardImage w-48 md:w-96 m-4"
+          src={image}
+          alt={name + " image"}
+        />
+      </a>
       <div className="cardInfo flex-wrap mx-auto">
         <div className="name">{name}</div>
         <div className="description">{description}</div>
